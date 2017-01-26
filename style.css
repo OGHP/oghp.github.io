@@ -1,0 +1,100 @@
+body {
+  background-color: black;
+}
+
+.example6 .navbar-brand{ 
+  background: url("http://i349.photobucket.com/albums/q397/oghp78/df505e78-2e0d-4787-9719-c0eb5e361bdc_zpsudeyo35j.jpg") center / contain no-repeat;
+  width: 200px;
+  height: 90px;
+}
+
+.navbar {
+  background-color: black;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  padding-top: 35px;
+  color: white;
+  font-family:'Quicksand', sans-serif;
+  font-size: 20px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  background-color: black;
+}
+
+.dropdown-menu {
+  font-size: 20px;
+}
+
+.cols {
+    -moz-column-count:4;
+    -moz-column-gap: 3%;
+    -moz-column-width: 30%;
+    -webkit-column-count:4;
+    -webkit-column-gap: 3%;
+    -webkit-column-width: 30%;
+    column-count: 4;
+    column-gap: 3%;
+    column-width: 30%;
+    background-color: black;
+}
+
+
+#hollyWedding {
+  width: 103%;
+  margin-top: 4px;
+}
+
+#booneWedding {
+ width: 103%;
+ margin-top: 4px;
+}
+
+#heatherFamily {
+  width: 103%;
+  margin-top: 4px;
+}
+
+#reflection {
+ width: 103%;
+ margin-top: 4px;
+}
+
+#pie {
+ width: 103%;
+ margin-top: 4px;
+}
+
+#redcross {
+ width: 103%;
+ margin-top: 4px;
+}
+
+#moon {
+ width: 103%;
+ margin-top: 4px;
+}
+
+#rubix {
+ width: 103%;
+ margin-top: 4px;
+}
+
+#rainier {
+ width: 103%;
+ margin-top: 4px;
+} 
+
+#familyBridge {
+ width: 103%;
+ margin-top: 4px;
+}
+
+footer {
+  padding-top: 6em;
+  color: gray;
+  text-align: center;
+}
