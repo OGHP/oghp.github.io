@@ -1,0 +1,42 @@
+/*TEST - - images over images that appear on hover!*/
+/*.test {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+.test img {
+  position:absolute;
+  width: 45%
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.test img.top:hover {
+  opacity:0;
+}*/
+
+/*test 2*/
+#cf6_image {
+  margin:0 auto;
+  width:450px;
+  height:281px;
+  transition: background-image 1s ease-in-out;
+  background-image:url("http://i349.photobucket.com/albums/q397/oghp78/11222382_10203990747648860_1864505889220582267_o_zpstsg2pel8.jpg");
+}
+
+#cf6_image:hover {
+  background-image:url("http://i349.photobucket.com/albums/q397/oghp78/312088_149609315128430_384520252_n_zps8nt2csqe.jpg");
+}
+
+.item {
+  width: 50%;
+}
+
+.carousel-inner {
+  width: 60%;
+}
