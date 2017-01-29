@@ -7,7 +7,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="styleInvestments.css">
+  <link rel="stylesheet" href="stylesInvestments.css">
 
   <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500" rel="stylesheet">
 </head>
@@ -24,10 +24,9 @@
         <a class="navbar-brand text-hide" href="index.html">ENLYTEN Photography
         </a>
       </div>
-<!-- removed .navbar and added .bs-example-navbar-collapse-1 -->
       <div id="bs-example-navbar-collapse-1" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="dropdown">
+<!--           <li class="dropdown">
             <a href="scapes.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Scapes <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
               <li><a href="landscapes.html">Landscapes</a></li>
@@ -35,8 +34,8 @@
               <li><a href="streetscapes.html">Streetscapes</a></li>
               <li><a href="starscapes.html">Starscapes</a></li>
             </ul>
-          </li>
-          <li class="dropdown">
+          </li> -->
+<!--           <li class="dropdown">
             <a href="humans.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Humans <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
               <li><a href="bridesgrooms.html">Brides & Grooms</a></li>
@@ -53,7 +52,7 @@
               <li><a href="art.html">Art</a></li>
               <li><a href="products.html">Products</a></li>
             </ul>
-          </li>
+          </li> -->
           <li class="dropdown">
             <a href="details.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">The Photographer <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
@@ -69,7 +68,126 @@
     <!--/.container-fluid -->
   </nav>
 
-
+<!-- ADD THE COLLAPSABLE ROWS FOR PRICING (from BS) -->
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Wedding Memories
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        <p>All images are professionally edited and presented on a disc with print release. Travel time is included within 1.5 hours from Bremerton, WA ($20 additional added for more than 1.5 hours of travel time)
+        </p>
+        <hr>
+        <p>
+        Package 1 $3999<br>
+        Engagement session, bridal party and groomsmen preparation, family photos, candid shots, ceremony, and reception (Two photographers and up to 12 hours of coverage)
+        </p>
+        <hr>
+        <p>
+        Package 2 $2999<br>
+        Engagement session, bridal party preparation, family photos, candid shots, ceremony, and reception (up to 8 hours)
+        </p>
+        <hr>
+        <p>
+        Package 3 $1999<br>
+        Engagement session, family photos, candid shots, ceremony, and reception (up to 5 hours)
+        </p>
+        <hr>
+        <p>
+        Package 4 $899<br>
+        Family photos, candid shots, ceremony, and reception (up to 3 hours)
+        </p>
+        <hr>
+        <p>
+        Package 5 $599<br>
+        Engagement session, ceremony, and reception (up to 3 hours)
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Family Photos and Special Occassions
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        <p>All images are professionally edited and presented on a disc. Travel time is included within 1.5 hours from Bremerton, WA ($20 additional added for more than 1.5 hours of travel time)
+        </p>
+        <p>
+        Prenatal Photo Session $150<br>
+        10-20 indoor/outdoor images
+        </p>
+        <p>
+        Mini-Family Session $225<br>
+        10-20 indoor/outdoor images
+        </p>
+        <p>
+        Graduation Celebrations $375<br>
+        Ceremony, friends and family images with candid shots
+        </p>
+        <p>
+        Special Events $425<br>
+        Main event images and candid shots (up to 3 hours)
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Portraits
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        <p>All images are professionally edited and presented on a disc. Travel time is included within 1.5 hours from Bremerton, WA ($20 additional added for more than 1.5 hours of travel time)
+        </p>
+        <p>
+        Professional Portraits $150<br>
+        10 images
+        </p>
+        <p>
+        Graduation Portraits $250<br>
+        10 images with 3 outfit changes/location changes
+        </p>
+      </div>
+    </div>
+    </div>
+    <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingFour">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Art Collection
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+      <div class="panel-body">
+        <p>
+        8 x 10 prints $75<br>
+        </p>
+        <p>
+        11 x 14 prints $100<br>
+        </p>
+        <p>
+        18 x 24 prints $150<br>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
 
   </body>
   </html>

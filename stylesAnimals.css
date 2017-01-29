@@ -1,27 +1,4 @@
-/*TEST - - images over images that appear on hover!*/
-/*.test {
-  position:relative;
-  height:281px;
-  width:450px;
-  margin:0 auto;
-}
-
-.test img {
-  position:absolute;
-  width: 45%
-  left:0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-.test img.top:hover {
-  opacity:0;
-}*/
-
-/*test 2*/
-#cf6_image {
+/*#cf6_image {
   margin:0 auto;
   width:450px;
   height:281px;
@@ -31,12 +8,58 @@
 
 #cf6_image:hover {
   background-image:url("http://i349.photobucket.com/albums/q397/oghp78/312088_149609315128430_384520252_n_zps8nt2csqe.jpg");
+}*/
+
+
+body {
+  background-color: black;
+}
+
+.example6 .navbar-brand{ 
+  background: url("http://i349.photobucket.com/albums/q397/oghp78/df505e78-2e0d-4787-9719-c0eb5e361bdc_zpsudeyo35j.jpg") center / contain no-repeat;
+  /*ENLYTEN logo image*/
+  width: 200px;
+  height: 90px;
+}
+
+.navbar {
+  background-color: black;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  padding-top: 35px;
+  color: white;
+  font-family:'Quicksand', sans-serif;
+  font-size: 20px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  background-color: black;
+}
+
+.dropdown-menu {
+  font-size: 20px;
+}
+
+img {
+  margin: auto;
 }
 
 .item {
-  width: 50%;
+  margin: auto;
 }
 
-.carousel-inner {
+/*.carousel-inner {
   width: 60%;
+}*/
+
+.carousel {  
+  position: relative;
+  display: block;
+  max-width: 75%;
+  height: auto;
+  margin: auto;
+  margin-top: 40px;
 }

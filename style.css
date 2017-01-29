@@ -4,6 +4,7 @@ body {
 
 .example6 .navbar-brand{ 
   background: url("http://i349.photobucket.com/albums/q397/oghp78/df505e78-2e0d-4787-9719-c0eb5e361bdc_zpsudeyo35j.jpg") center / contain no-repeat;
+  /*ENLYTEN logo image*/
   width: 200px;
   height: 90px;
 }
@@ -42,6 +43,16 @@ body {
     background-color: black;
 }
 
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+.fade:hover {
+  opacity: 0.5;
+  }
 
 #hollyWedding {
   width: 103%;

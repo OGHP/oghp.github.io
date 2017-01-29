@@ -65,7 +65,7 @@ body{
 img{
   -webkit-filter: grayscale(1);
   cursor: pointer;
-  transition: all .5s ease;
+  transition: all .4s ease;
 }
 img:hover{
   -webkit-filter: grayscale(0);
@@ -79,4 +79,13 @@ img:hover{
   to{
     transform: rotateY(360deg);
   }
+}
+
+#aboutMe {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 40px;
+  font-family:'Quicksand', sans-serif;
+  font-size: 20px;
+  color: #dee2e8;
 }
