@@ -1,0 +1,79 @@
+body {
+  background-color: black;
+}
+
+.example6 .navbar-brand{ 
+  background: url("http://i349.photobucket.com/albums/q397/oghp78/df505e78-2e0d-4787-9719-c0eb5e361bdc_zpsudeyo35j.jpg") center / contain no-repeat;
+  /*ENLYTEN logo image*/
+  width: 200px;
+  height: 90px;
+}
+
+.navbar {
+  background-color: black;
+  padding-top: 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  padding-top: 42px;
+  color: white;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 16px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  background-color: black;
+}
+
+.dropdown-menu {
+  font-size: 15px;
+}
+
+.dropdown-menu>li>a {
+  color: white;
+}
+
+hr {
+  border-color: red;
+}
+
+
+#container {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.thumbnail {
+  max-width: 100%;
+  border-radius: 0px;
+}
+
+
+.lightbox {
+  /** Default lightbox to hidden */
+  display: none;
+
+  /** Position and style */
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  /*height: 100%;*/
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+  /** Pad the lightbox image */
+  max-width: 90%;
+  max-height: 100%;
+  margin-top: 10%;
+}
+
+.lightbox:target {
+  /** Remove default browser outline */
+  outline: none;
+
+  /** Unhide lightbox **/
+  display: block;
+}
