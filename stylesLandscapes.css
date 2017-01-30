@@ -12,14 +12,13 @@ body {
 .navbar {
   background-color: black;
   padding-top: 15px;
-  padding-bottom: 10px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
-  padding-top: 35px;
+  padding-top: 42px;
   color: white;
-  font-family:'Quicksand', sans-serif;
-  font-size: 20px;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 16px;
 }
 
 .navbar-nav>li>.dropdown-menu {
@@ -27,7 +26,15 @@ body {
 }
 
 .dropdown-menu {
-  font-size: 20px;
+  font-size: 15px;
+}
+
+.dropdown-menu>li>a {
+  color: white;
+}
+
+hr {
+  border-color: red;
 }
 
 #container {

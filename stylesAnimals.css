@@ -1,16 +1,3 @@
-/*#cf6_image {
-  margin:0 auto;
-  width:450px;
-  height:281px;
-  transition: background-image 1s ease-in-out;
-  background-image:url("http://i349.photobucket.com/albums/q397/oghp78/11222382_10203990747648860_1864505889220582267_o_zpstsg2pel8.jpg");
-}
-
-#cf6_image:hover {
-  background-image:url("http://i349.photobucket.com/albums/q397/oghp78/312088_149609315128430_384520252_n_zps8nt2csqe.jpg");
-}*/
-
-
 body {
   background-color: black;
 }
@@ -25,14 +12,13 @@ body {
 .navbar {
   background-color: black;
   padding-top: 15px;
-  padding-bottom: 10px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
-  padding-top: 35px;
+  padding-top: 42px;
   color: white;
-  font-family:'Quicksand', sans-serif;
-  font-size: 20px;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 16px;
 }
 
 .navbar-nav>li>.dropdown-menu {
@@ -40,10 +26,19 @@ body {
 }
 
 .dropdown-menu {
-  font-size: 20px;
+  font-size: 15px;
 }
 
-img {
+.dropdown-menu>li>a {
+  color: white;
+}
+
+hr {
+  border-color: red;
+}
+
+
+/*img {
   margin: auto;
 }
 
@@ -51,9 +46,6 @@ img {
   margin: auto;
 }
 
-/*.carousel-inner {
-  width: 60%;
-}*/
 
 .carousel {  
   position: relative;
@@ -62,4 +54,4 @@ img {
   height: auto;
   margin: auto;
   margin-top: 40px;
-}
+}*/

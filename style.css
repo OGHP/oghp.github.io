@@ -2,6 +2,10 @@ body {
   background-color: black;
 }
 
+hr {
+  border-color: red;
+}
+
 .example6 .navbar-brand{ 
   background: url("http://i349.photobucket.com/albums/q397/oghp78/df505e78-2e0d-4787-9719-c0eb5e361bdc_zpsudeyo35j.jpg") center / contain no-repeat;
   /*ENLYTEN logo image*/
@@ -12,14 +16,13 @@ body {
 .navbar {
   background-color: black;
   padding-top: 15px;
-  padding-bottom: 10px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
-  padding-top: 35px;
+  padding-top: 42px;
   color: white;
-  font-family:'Quicksand', sans-serif;
-  font-size: 20px;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 16px;
 }
 
 .navbar-nav>li>.dropdown-menu {
@@ -27,8 +30,16 @@ body {
 }
 
 .dropdown-menu {
-  font-size: 20px;
+  font-size: 15px;
 }
+
+.dropdown-menu>li>a {
+  color: white;
+}
+
+
+/*EVERYTHING ABOVE THIS IS ALL THE SAME FOR EVERY PAGE - HOW TO CREATE DRY CODE
+WITH THIS THOUGH? */
 
 .cols {
     -moz-column-count:4;

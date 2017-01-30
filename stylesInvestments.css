@@ -2,11 +2,40 @@
   width: 50%;
 /*  margin-left: 40px;
   margin-top: 80px;*/
-  font-family:'Quicksand', sans-serif;
+  font-family: 'Arsenal', sans-serif
   font-size: 20px;
   color: #b2b5ba;
   background-color: black;
   text-align: center;
-  padding-top: 100px;
+/*  padding-top: 105px;*/
   margin: auto;
+  text-align: center;
+}
+
+#photoDetails {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  text-align: center;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 13px;
+  color: #dee2e8;
+}
+
+.panel {
+  margin-bottom: 20px;
+  background-color: black;
+  margin-top: 5px;
+}
+
+.panel-title {
+  font-family: 'Arsenal', sans-serif
+}
+
+.panel-default {
+  border-color: black;
+}
+
+.panel-heading {
+  border-radius: 0;
 }
