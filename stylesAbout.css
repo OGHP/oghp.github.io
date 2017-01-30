@@ -120,6 +120,10 @@ img:hover{
   }
 }
 
+/*.aboutMe {
+  background-image: url("http://i349.photobucket.com/albums/q397/oghp78/ENLYTEN%20IN%20ACTION/Photo%20Guy-1_zpsoluyumtd.jpg");
+}*/
+
 #aboutMe {
   padding-left: 80px;
   padding-right: 80px;
@@ -128,4 +132,9 @@ img:hover{
   font-family: 'Indie Flower', cursive;
   font-size: 20px;
   color: #dee2e8;
+}
+
+.photoWheel {
+  width: 103%;
+  margin-top:4px;
 }
