@@ -3,9 +3,9 @@ body{
   min-height: 100%;
 }
 
-/*body{
-
-}*/
+body{
+margin-top: 105px;
+}
 
 .containerOne {
   margin: 4% auto;

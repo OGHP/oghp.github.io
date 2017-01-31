@@ -1,5 +1,19 @@
+body {
+  margin-top: 105px;
+  background-image: url("http://i349.photobucket.com/albums/q397/oghp78/ENLYTEN%20IN%20ACTION/Photo%20Guy-1_zpsoluyumtd.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*#eddieFieldBackground {
+  background-image: url("http://i349.photobucket.com/albums/q397/oghp78/ENLYTEN%20IN%20ACTION/Photo%20Guy-1_zpsoluyumtd.jpg");
+  background-repeat: no-repeat;
+  background-position: fixed center;
+} */
+
 #accordion {
-  width: 50%;
+  width: 30%;
 /*  margin-left: 40px;
   margin-top: 80px;*/
   font-family: 'Arsenal', sans-serif
@@ -18,8 +32,8 @@
   padding-top: 40px;
   text-align: center;
   font-family: 'Arsenal', sans-serif;
-  font-size: 13px;
-  color: #dee2e8;
+  font-size: 18px;
+  color: white;
 }
 
 .panel {
@@ -39,3 +53,5 @@
 .panel-heading {
   border-radius: 0;
 }
+
+

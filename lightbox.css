@@ -1,7 +1,9 @@
 #container {
   margin-left: 15px;
   margin-right: 15px;
+  margin-top: 105px;
 }
+
 .thumbnail {
   max-width: 100%;
   border-radius: 0px;

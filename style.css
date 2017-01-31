@@ -1,3 +1,7 @@
+/*.container.cols {
+  margin-top: 105px;
+}*/
+
 .cols {
     -moz-column-count:4;
     -moz-column-gap: 3%;
@@ -9,6 +13,7 @@
     column-gap: 3%;
     column-width: 30%;
     background-color: black;
+    margin-top: 105px;
 }
 
 .fade {
