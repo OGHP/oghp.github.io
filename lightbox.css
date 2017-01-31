@@ -1,4 +1,3 @@
-/*HIDING LIGHTBOX FOR NOW
 #container {
   margin-left: 15px;
   margin-right: 15px;
@@ -28,4 +27,4 @@
 .lightbox:target {
   outline: none;
   display: block;
-}*/
+}

@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+}
+
+hr {
+  border-color: red;
+}
+
+.example6 .navbar-brand{ 
+  background: url("http://i349.photobucket.com/albums/q397/oghp78/df505e78-2e0d-4787-9719-c0eb5e361bdc_zpsudeyo35j.jpg") center / contain no-repeat;
+  /*ENLYTEN logo image*/
+  width: 200px;
+  height: 90px;
+}
+
+.navbar {
+  background-color: black;
+  padding-top: 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  padding-top: 42px;
+  color: white;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 16px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  background-color: black;
+}
+
+.dropdown-menu {
+  font-size: 15px;
+  font-family: 'Arsenal', sans-serif;
+}
+
+.dropdown-menu>li>a {
+  color: white;
+}
