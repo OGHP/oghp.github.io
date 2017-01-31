@@ -2,8 +2,9 @@ html,
 body{
   min-height: 100%;
 }
+
 /*body{
-  background-image: radial-gradient(mintcream 0%, lightgray 100%);
+
 }*/
 
 .containerOne {
@@ -78,7 +79,8 @@ img:hover{
   padding-right: 80px;
   padding-top: 40px;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Arsenal', sans-serif;
+/*  font-family: 'Indie Flower', cursive;*/
   font-size: 20px;
   color: #dee2e8;
 }
@@ -87,3 +89,9 @@ img:hover{
   width: 103%;
   margin-top:4px;
 }
+
+/*#backgroundEddie {
+  background-image: url("http://i349.photobucket.com/albums/q397/oghp78/ENLYTEN%20IN%20ACTION/Photo%20Guy-1_zpsoluyumtd.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}*/
