@@ -6,34 +6,25 @@ body {
   background-attachment: fixed;
 }
 
-/*#eddieFieldBackground {
-  background-image: url("http://i349.photobucket.com/albums/q397/oghp78/ENLYTEN%20IN%20ACTION/Photo%20Guy-1_zpsoluyumtd.jpg");
-  background-repeat: no-repeat;
-  background-position: fixed center;
-} */
+a:link {
+    text-decoration: none;
+}
+
+.navbar {
+  padding-bottom: 14px;
+}
 
 #accordion {
-  width: 30%;
-/*  margin-left: 40px;
-  margin-top: 80px;*/
+  width: 230px;
   font-family: 'Arsenal', sans-serif
   font-size: 20px;
   color: #b2b5ba;
-  background-color: black;
+  /*background-color: black;*/
   text-align: center;
 /*  padding-top: 105px;*/
   margin: auto;
   text-align: center;
-}
-
-#photoDetails {
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 40px;
-  text-align: center;
-  font-family: 'Arsenal', sans-serif;
-  font-size: 18px;
-  color: white;
+  margin: 186px 0px 0px 90px;
 }
 
 .panel {
@@ -54,4 +45,14 @@ body {
   border-radius: 0;
 }
 
+#photoDetails {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  text-align: center;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 18px;
+  color: white;
+  margin-top: 12%;
+}
 
