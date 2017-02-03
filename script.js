@@ -64,3 +64,4 @@
 // $(window).resize(function() {
 //     responsiveLightbox();
 // });
+
